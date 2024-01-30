@@ -31,7 +31,7 @@ export default {
       createUser(user)
         .then(() => {
           emit("reloadUsers");
-          close();
+          handleClose();
         })
         .catch((err) => console.error("Error creating user:", err));
     };
