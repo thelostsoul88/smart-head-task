@@ -40,8 +40,9 @@ export default {
   color: white;
   background-color: #646cff;
   padding-left: 8px;
-}
-.search-input::placeholder {
-  color: #283149;
+
+  &::placeholder {
+    color: #283149;
+  }
 }
 </style>

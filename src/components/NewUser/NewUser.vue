@@ -175,10 +175,10 @@ export default {
   align-items: baseline;
   text-align: left;
   margin: 0 10px 20px;
-}
 
-.form-section:last-child {
-  margin-bottom: 0;
+  &:last-child {
+    margin-bottom: 0;
+  }
 }
 
 .form-label {
@@ -194,10 +194,10 @@ export default {
   color: white;
   background-color: #646cff;
   height: 30px;
-}
 
-.form-input::placeholder {
-  color: #283149;
+  &::placeholder {
+    color: #283149;
+  }
 }
 
 .form-buttons {
@@ -221,23 +221,23 @@ export default {
 .form-button--cancel {
   background-color: transparent;
   border-color: #646cff;
-}
 
-.form-button--cancel:hover {
-  background-color: crimson;
-  transition: all 0.5s ease;
-  opacity: 85%;
+  &:hover {
+    background-color: crimson;
+    transition: all 0.5s ease;
+    opacity: 85%;
+  }
 }
 
 .form-button--save {
   background-color: transparent;
   border-color: #646cff;
-}
 
-.form-button--save:hover {
-  background-color: #369a36;
-  transition: all 0.5s ease;
-  opacity: 85%;
+  &:hover {
+    background-color: #369a36;
+    transition: all 0.5s ease;
+    opacity: 85%;
+  }
 }
 
 textarea.form-input {

@@ -87,11 +87,11 @@ export default {
   border-color: #646cff;
   border-radius: 50%;
   cursor: pointer;
-}
 
-.details-close-btn:hover {
-  border-color: crimson;
-  transition: all 0.5s ease;
+  &:hover {
+    border-color: crimson;
+    transition: all 0.5s ease;
+  }
 }
 
 .details-title {

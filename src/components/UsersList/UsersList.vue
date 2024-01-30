@@ -45,6 +45,7 @@ export default {
 .list-leave-active {
   transition: all 0.7s ease;
 }
+
 .list-enter-from,
 .list-leave-to {
   opacity: 0;

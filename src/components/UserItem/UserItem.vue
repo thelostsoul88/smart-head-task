@@ -71,10 +71,10 @@ export default {
   cursor: pointer;
   transition: all 0.7s ease;
   color: #646cff;
-}
 
-.user-name:hover {
-  text-decoration: underline;
+  &:hover {
+    text-decoration: underline;
+  }
 }
 
 .user-email {
@@ -107,10 +107,10 @@ export default {
   cursor: pointer;
   transition: all 0.5s ease;
   border-color: rgba(211, 47, 47, 0.5);
-}
 
-.user-remove:hover {
-  border-color: red;
-  transition: all 0.5s ease;
+  &:hover {
+    border-color: red;
+    transition: all 0.5s ease;
+  }
 }
 </style>

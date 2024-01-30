@@ -134,13 +134,13 @@ export default {
   cursor: pointer;
   transition: all 0.5s ease;
   border-color: #646cff;
-}
 
-.add-user-button:hover {
-  background-color: white;
-  transition: all 0.5s ease;
-  opacity: 85%;
-  color: black;
+  &:hover {
+    background-color: white;
+    transition: all 0.5s ease;
+    opacity: 85%;
+    color: black;
+  }
 }
 
 #app {
